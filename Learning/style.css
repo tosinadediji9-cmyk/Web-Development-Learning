@@ -10,7 +10,30 @@ h1 {
 /* this is a header section */
 header {
     background-color: lightcoral;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content:space-evenly; */
+    align-items: center;
     /* background-color: orange; */
+}
+.auth-links {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+}
+.auth-links a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.auth-links .login-link {
+    background-color: white;
+}
+.auth-links .signup-link {
+    background-color: blue;
+    color: white;
 }
 .welcome-section {
     border: 2px solid green;
@@ -19,6 +42,15 @@ header {
 .benefits-section {
     border: 2px solid purple;
     text-align: center;
+}
+.logo {
+    border: 2px solid orange;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    border: 2px solid blue;
 }
 /* body {
     background-color:  yellow;
